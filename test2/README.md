@@ -9,6 +9,8 @@
 # 实验二：图书管理系统用例建模
 ## 1.图书管理系统的用例关系图
 ### 1.1用例图PlantUML源码如下：
+
+```
  @startuml
  left to right direction
  skinparam packageStyle rectangle
@@ -43,6 +45,7 @@
 
  }
  @enduml
+ ```
 ### 1.2用例图如下：
 ![](library_UseCase.png)
 
