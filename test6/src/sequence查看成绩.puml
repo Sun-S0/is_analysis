@@ -1,0 +1,10 @@
+@startuml
+title 基于GitHub的实验管理平台--查看成绩用例的顺序图
+actor students
+students -> term: 选择学期
+term -> course: 选择已修课程
+course --> students:返回某学期已修的课程
+students -> grades: 查看课程成绩和评语
+grades -> tests:查看实验成绩
+tests --> students:每个实验的信息、成绩和评语
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+title 基于GitHub的实验管理平台--查看实验内容用例的顺序图
+actor students
+students -> term: 默认本学期
+term -> course: 选择在修课程
+course -> tests:查看实验内容
+tests --> students:返回每个实验内容以及评分标准
+@enduml

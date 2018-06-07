@@ -1,0 +1,10 @@
+@startuml
+title 基于GitHub的实验管理平台--查看实验内容用例的顺序图
+actor teachers
+teachers -> term: 1.默认本学期
+term -> course: 2.选择任教课程
+course -> test:3.查看实验内容
+test --> teachers:4.返回每个实验内容
+teachers -> test:5.对实验内容进行增删改操作
+test --> teachers:6.返回结果
+@enduml

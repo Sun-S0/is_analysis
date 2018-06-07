@@ -1,0 +1,11 @@
+@startuml
+title 基于GitHub的实验管理平台--学生列表用例的顺序图
+
+actor students
+students -> term: 获取学期列表
+
+term --> students: 返回该学生拥有的学期列表
+
+
+
+@enduml
