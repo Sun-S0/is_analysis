@@ -1,4 +1,4 @@
-****************<!-- markdownlint-disable MD033-->
+<!-- markdownlint-disable MD033-->
 <!-- 禁止MD033类型的警告 https://www.npmjs.com/package/markdownlint -->
 
 # 接口：setUserInfo  [返回](../README.md)
