@@ -2,7 +2,7 @@
 <!-- 禁止MD033类型的警告 https://www.npmjs.com/package/markdownlint -->
 
 # 接口：getTestContent  [返回](../README.md)
-用例： [查看实验内容](../用例/查看实验内容.md)
+用例： [查看实验内容](../用例/实验内容.md)
 
 - 功能：
     获取学生的在修课程中的所有实验内容以及实验要求。
